@@ -5,17 +5,17 @@ const path = require('path')
 function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
+    title: "JKLURadio",
     width: 800,
     height: 600,
+    autoHideMenuBar: true,
     webPreferences: {
-      contextIsolation: false,
-      nodeIntegration: true,
-      preload: path.join(__dirname, 'preload.js')
+      webviewTag: true
     }
   })
 
   // and load the index.html of the app.
-  mainWindow.loadFile('index.html')
+  mainWindow.loadFile("index.html");
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()

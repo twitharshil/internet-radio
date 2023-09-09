@@ -1,5 +1,5 @@
 {
-  "name": "electron-quick-start",
+  "name": "JKLURadio",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
@@ -17,7 +17,6 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^16.0.2", 
-    "@postman/starship": "4.3.4"
+    "electron": "^16.0.2"
   }
 }
