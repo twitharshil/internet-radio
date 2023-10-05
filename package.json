@@ -17,7 +17,7 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^16.0.2", 
+    "electron": "^26.3.0", 
     "@postman/starship": "4.3.4"
   }
 }
